@@ -1,0 +1,6 @@
+.idea/
+create_dictionary/
+dictionary/
+dist/
+trie.js
+trie_a.js

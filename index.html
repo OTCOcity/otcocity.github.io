@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Слово за слово</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="./trie_all.js"></script>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<table class="fld-cont">
+    <tr>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="а"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="р"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="м"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="о"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="с"></div></td>
+    </tr>
+    <tr>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="к"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="е"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="р"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="т"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="ф"></div></td>
+    </tr>
+    <tr>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="а"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="в"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="о"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="л"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="в"></div></td>
+    </tr>
+    <tr>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="к"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="у"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="п"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="е"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="б"></div></td>
+    </tr>
+    <tr>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="к"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="у"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="п"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="е"></div></td>
+        <td class="fld-td"><div class="fld-char__wrap"><div class="fld-char__number">0</div><input maxlength="1" class="fld-char" type="text" value="а"></div></td>
+    </tr>
+</table>
+<div>
+    <div class="btn" id="find-words">Найти слова</div>
+    <div class="btn" id="generate-words">Заполнить случайным образом</div>
+</div>
+
+
+<div class="word-list">
+
+</div>
+
+</body>
+
+</html>
